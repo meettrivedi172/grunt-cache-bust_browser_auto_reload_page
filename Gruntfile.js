@@ -1,31 +1,3 @@
-// module.exports = function(grunt) {
-//   grunt.initConfig({
-//     cacheBust: {
-//       options: {
-//         algorithm: 'md5',
-//         baseDir: 'dist',
-//         deleteOriginals: true,
-//         enableUrlFragmentHint: true,
-//         jsonOutput: true
-//       },
-//       assets: {
-//         files: [{
-//           src: ['dist/**/*.{js,css}']
-//         }]
-//       }
-//     }
-//   });
-
-//   grunt.loadNpmTasks('grunt-cache-bust');
-
-//   grunt.registerTask('default', ['cacheBust']);
-// };
-
-
-
-
-
-
 module.exports = function(grunt) {
   grunt.initConfig({
 
